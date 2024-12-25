@@ -39,7 +39,7 @@ const StatsSection = () => {
   }, []);
 
   return (
-    <div className="bg-gray-100 py-12" ref={sectionRef}>
+    <div className=" py-12" ref={sectionRef}>
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {stats.map((stat, index) => {

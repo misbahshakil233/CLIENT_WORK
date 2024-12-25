@@ -13,17 +13,17 @@ const HeroSection = () => {
   return (
     <section id="home" className="relative h-screen  overflow-hidden bg-gray-100">
       {/* Background Images Slideshow */}
-      <div className="absolute top-0 left-0 w-full h-full opacity-70 z-0">
-        <div className="w-full h-full absolute bg-cover bg-center opacity-30 slide-image" style={{ backgroundImage: `url(${IMAGE1})` }}></div>
+       <div className="absolute top-0 left-0 w-full h-full opacity-70 z-0">
+         <div className="w-full h-full absolute bg-cover bg-center opacity-30 slide-image" style={{ backgroundImage: `url(${IMAGE1})` }}></div>
         <div className="w-full h-full absolute bg-cover bg-center opacity-30 slide-image" style={{ backgroundImage: `url(${IMAGE2})` }}></div>
         <div className="w-full h-full absolute bg-cover bg-center opacity-30 slide-image" style={{ backgroundImage: `url(${IMAGE3})` }}></div>
         <div className="w-full h-full absolute bg-cover bg-center opacity-30 slide-image" style={{ backgroundImage: `url(${IMAGE4})` }}></div>
-      </div>
+      </div> 
 
       {/* Content */}
       <div className="container mx-auto flex flex-col items-center bottom-10 justify-center h-full relative z-10 px-4">
         <div id="hero-text" className="text-center md:text-left md:w-1/2 text-white transform opacity-0">
-          <h1 className="text-7xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-blue-900">Welcome to Stitches</h1>
+          <h1 className="text-7xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-blue-900">Welcome to Stitchy Vibes</h1>
           <p className="mt-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-white font-bold">Best Quality</p>
           <p className="mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl italic font-bold text-white">
             We provide the best services for digitizing, vector graphics, and more!

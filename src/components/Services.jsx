@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Services = () => {
   return (
-    <section id="services" className="bg-gray-100 py-20">
+    <section id="services" className=" py-20">
       <div className="animate-bounce relative left-[43%] flex justify-center items-center h-16 w-48 text-blue-900 border-separate border-b-8 border-blue-900 text-lg font-bold rounded-full shadow-lg">
         Service
       </div>

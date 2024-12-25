@@ -30,7 +30,7 @@ const AboutUs = () => {
 
   return (
     <section id="about" className="bg-black py-20">
-      <div className="animate-bounce relative left-[55%] bg-white top-24 flex justify-center items-center h-16 w-48 text-blue-900 border-separate border-b-8 border-blue-900 text-lg font-bold rounded-full shadow-lg">
+      <div className="animate-bounce relative left-[55%] bg-white top-34 flex justify-center items-center h-16 w-48 text-blue-900 border-separate border-b-8 border-blue-900 text-lg font-bold rounded-full shadow-lg">
         About
       </div>
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -55,10 +55,27 @@ const AboutUs = () => {
               <h2 className="my-4 font-bold text-white text-7xl sm:text-4xl">
                 About <span className="text-indigo-600">Our Stitches Company</span>
               </h2>
-              <p className="text-white text-xl">
+              <p className="text-white ">
                 <span>
                   At Stitches, we take pride in turning your creative concepts into stunning digital realities. Specializing in Digitizing, Vector Art, Anime Design, and Patches, we transform intricate designs into vibrant, high-quality graphics that stand out. Whether it's a logo, detailed illustration, or custom artwork, our team ensures every design is brought to life with precision, creativity, and professionalism. Let us help bring your vision to reality!
                 </span>
+                <br />
+                <br />
+                <br />
+                <span className="mt-6 text-sm md:text-base lg:text-lg xl:text-xl flex flex-col space-y-2">
+            <span className="flex items-center">
+              <span className="bg-white text-blue-900 font-bold rounded-full p-1 mr-2 text-lg">✓</span>
+              Award winning quality.
+            </span>
+            <span className="flex items-center">
+              <span className="bg-white text-blue-900 font-bold rounded-full p-1 mr-2 text-lg">✓</span>
+              Live expert customer service.
+            </span>
+            <span className="flex items-center">
+              <span className="bg-white text-blue-900 font-bold rounded-full p-1 mr-2 text-lg">✓</span>
+              24 hours turnaround-standard.
+            </span>
+          </span>
               </p>
             </div>
           </div>
